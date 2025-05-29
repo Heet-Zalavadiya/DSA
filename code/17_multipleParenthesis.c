@@ -118,7 +118,7 @@ int match(char a, char b)
 
 int main()
 {
-    char *exp = "[4-9]((8)*{(9-8)})"; // This program doest not give validity of expression just give parenthesis mathching of program
+    char *exp = "[4-9]((8)*{(9-8)})"; // This program does not give validity of expression just give parenthesis mathching of program
     if (parenthesisMatch(exp))
     {
         printf("The parenthesis is balanced");
