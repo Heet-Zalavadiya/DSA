@@ -28,6 +28,11 @@ struct Node *createNode(int key)
     return node;
 }
 
+int max(int a, int b)
+{
+    return a > b ? a : b;
+}
+
 int getBalanceFactor(struct Node *n)
 {
     if (n == NULL)
@@ -75,7 +80,7 @@ struct Node *insert(struct Node *node, int key)
     }
     else if (key > node->key)
     {
-        node->key = insert(node->right, key);
+        node->right = insert(node->right, key);
         return node;
     }
 
@@ -109,6 +114,10 @@ struct Node *insert(struct Node *node, int key)
 
 int main()
 {
-
+    struct Node * root = NULL;
+    root = insert(root, 45);
+    root = insert(root, 4);
+    root = insert(root, 5);
+    root = insert(root, 9);
     return 0;
 }
