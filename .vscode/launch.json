@@ -2,6 +2,20 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "DeQueue",
+      "request": "launch",
+      "mainClass": "DeQueue",
+      "projectName": "DSA_79c6ec76"
+    },
+    {
+      "type": "java",
+      "name": "priorityQueue",
+      "request": "launch",
+      "mainClass": "priorityQueue",
+      "projectName": "DSA_79c6ec76"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
