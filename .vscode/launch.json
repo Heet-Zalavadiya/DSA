@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "customHashSet",
+      "request": "launch",
+      "mainClass": "customHashSet",
+      "projectName": "DSA_79c6ec76"
+    },
+    {
+      "type": "java",
       "name": "DeQueue",
       "request": "launch",
       "mainClass": "DeQueue",
