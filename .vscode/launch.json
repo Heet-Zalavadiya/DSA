@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "collectionClass",
+      "request": "launch",
+      "mainClass": "collectionClass",
+      "projectName": "DSA_79c6ec76"
+    },
+    {
+      "type": "java",
+      "name": "ArrClass",
+      "request": "launch",
+      "mainClass": "ArrClass",
+      "projectName": "DSA_79c6ec76"
+    },
+    {
+      "type": "java",
       "name": "customHashSet",
       "request": "launch",
       "mainClass": "customHashSet",
