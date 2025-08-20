@@ -114,7 +114,7 @@ struct Node *insert(struct Node *node, int key)
 
 int main()
 {
-    struct Node * root = NULL;
+    struct Node *root = NULL;
     root = insert(root, 45);
     root = insert(root, 4);
     root = insert(root, 5);
